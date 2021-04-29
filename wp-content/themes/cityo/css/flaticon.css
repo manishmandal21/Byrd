@@ -1,0 +1,122 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 12/03/2019 08:28
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff2") format("woff2"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+font-style: normal;
+display: inline-block;
+}
+
+.flaticon-magnifying-glass:before { content: "\f100"; }
+.flaticon-shopping-basket:before { content: "\f101"; }
+.flaticon-in:before { content: "\f102"; }
+.flaticon-placeholder:before { content: "\f103"; }
+.flaticon-wine:before { content: "\f104"; }
+.flaticon-museum:before { content: "\f105"; }
+.flaticon-popcorn:before { content: "\f106"; }
+.flaticon-cutlery:before { content: "\f107"; }
+.flaticon-bed:before { content: "\f108"; }
+.flaticon-zoom-in:before { content: "\f109"; }
+.flaticon-like:before { content: "\f10a"; }
+.flaticon-place:before { content: "\f10b"; }
+.flaticon-contact:before { content: "\f10c"; }
+.flaticon-heart:before { content: "\f10d"; }
+.flaticon-shopping-bag:before { content: "\f10e"; }
+.flaticon-tent:before { content: "\f10f"; }
+.flaticon-event:before { content: "\f110"; }
+.flaticon-house:before { content: "\f111"; }
+.flaticon-house-1:before { content: "\f112"; }
+.flaticon-building:before { content: "\f113"; }
+.flaticon-building-with-big-windows:before { content: "\f114"; }
+.flaticon-credit-card:before { content: "\f115"; }
+.flaticon-wifi:before { content: "\f116"; }
+.flaticon-parking:before { content: "\f117"; }
+.flaticon-cigar:before { content: "\f118"; }
+.flaticon-bicycle:before { content: "\f119"; }
+.flaticon-handicap:before { content: "\f11a"; }
+.flaticon-reservation:before { content: "\f11b"; }
+.flaticon-coupon:before { content: "\f11c"; }
+.flaticon-tent-1:before { content: "\f11d"; }
+.flaticon-view:before { content: "\f11e"; }
+.flaticon-share:before { content: "\f11f"; }
+.flaticon-call:before { content: "\f120"; }
+.flaticon-mail:before { content: "\f121"; }
+.flaticon-tap:before { content: "\f122"; }
+.flaticon-consulting-message:before { content: "\f123"; }
+.flaticon-bed-1:before { content: "\f124"; }
+.flaticon-people:before { content: "\f125"; }
+.flaticon-food:before { content: "\f126"; }
+.flaticon-user:before { content: "\f127"; }
+.flaticon-event-1:before { content: "\f128"; }
+.flaticon-view-1:before { content: "\f129"; }
+.flaticon-eraser:before { content: "\f12a"; }
+.flaticon-dustbin:before { content: "\f12b"; }
+.flaticon-credit-card-1:before { content: "\f12c"; }
+.flaticon-wifi-1:before { content: "\f12d"; }
+.flaticon-like-1:before { content: "\f12e"; }
+.flaticon-upload:before { content: "\f12f"; }
+.flaticon-air-conditioner:before { content: "\f130"; }
+.flaticon-balcony:before { content: "\f131"; }
+.flaticon-bed-2:before { content: "\f132"; }
+.flaticon-television:before { content: "\f133"; }
+.flaticon-cleaning:before { content: "\f134"; }
+.flaticon-cofee-and-tea:before { content: "\f135"; }
+.flaticon-web:before { content: "\f136"; }
+.flaticon-baby-mobile:before { content: "\f137"; }
+.flaticon-dishwasher:before { content: "\f138"; }
+.flaticon-compact-disc:before { content: "\f139"; }
+.flaticon-fan:before { content: "\f13a"; }
+.flaticon-refrigerator:before { content: "\f13b"; }
+.flaticon-bbq:before { content: "\f13c"; }
+.flaticon-hairdryer:before { content: "\f13d"; }
+.flaticon-thermometer:before { content: "\f13e"; }
+.flaticon-wifi-2:before { content: "\f13f"; }
+.flaticon-iron:before { content: "\f140"; }
+.flaticon-juicer:before { content: "\f141"; }
+.flaticon-lift:before { content: "\f142"; }
+.flaticon-windshield-defrost:before { content: "\f143"; }
+.flaticon-alloy-wheel:before { content: "\f144"; }
+.flaticon-music-player:before { content: "\f145"; }
+.flaticon-bluetooth:before { content: "\f146"; }
+.flaticon-rearview-mirror:before { content: "\f147"; }
+.flaticon-navigation:before { content: "\f148"; }
+.flaticon-cd:before { content: "\f149"; }
+.flaticon-racing:before { content: "\f14a"; }
+.flaticon-car:before { content: "\f14b"; }
+.flaticon-remote:before { content: "\f14c"; }
+.flaticon-car-key:before { content: "\f14d"; }
+.flaticon-car-1:before { content: "\f14e"; }
+.flaticon-parking-sensor:before { content: "\f14f"; }
+.flaticon-car-2:before { content: "\f150"; }
+.flaticon-fuel-station:before { content: "\f151"; }
+.flaticon-steering-wheel:before { content: "\f152"; }
+.flaticon-meter:before { content: "\f153"; }
+.flaticon-diesel:before { content: "\f154"; }
+.flaticon-engine:before { content: "\f155"; }
+.flaticon-tools-and-utensils:before { content: "\f156"; }
+.flaticon-tyre:before { content: "\f157"; }
+.flaticon-transportation:before { content: "\f158"; }
+.flaticon-car-key-1:before { content: "\f159"; }
+.flaticon-dodgem:before { content: "\f15a"; }

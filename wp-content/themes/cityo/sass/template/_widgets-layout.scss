@@ -1,0 +1,263 @@
+/* block */
+.wpb_content_element,
+.#{$block-selector} {
+    position: relative;
+    padding: $block-module-padding;
+    margin-bottom: 10px;
+    @media(min-width: 1200px){
+        margin-bottom: 30px;
+    }
+    .wpb_heading,
+    .#{$block-heading-selector}{
+        position: relative;
+        line-height: 1;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0 0 15px;
+        @media(min-width: 1200px){
+            margin: 0 0 25px;
+        }
+    }
+}
+// header
+#apus-header{
+    .job_search_form{
+        .form-control{
+            color: #fff;
+            background:transparent !important;
+            border-color:transparent;
+            &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+              color:#fff;
+            }
+            &::-moz-placeholder { /* Firefox 19+ */
+              color:#fff;
+            }
+            &:-ms-input-placeholder { /* IE 10+ */
+              color:#fff;
+            }
+            &:-moz-placeholder { /* Firefox 18- */
+              color:#fff;
+            }
+        }
+        .btn-search-header{
+            color: #fff;
+            &:hover,&:focus{
+                color: $theme-color;
+            }
+        }
+        .search-field-wrapper .navbar-collapse-suggestions{
+            margin-top: -1px;
+        }
+    }
+}
+// Sidebar
+.sidebar,
+.#{$app-prefix}-sidebar {
+    .widget{
+        background:#fff;
+        @include border-radius(6px);
+        padding:15px;
+        @media(min-width: 1200px){
+            padding:25px 30px 30px;
+        }
+        &.listing-statistic {
+            padding-bottom:0;
+            @media(min-width: 1200px){
+                padding-bottom:15px;
+            }
+        }
+        &.listing-tags{
+            padding-bottom:5px;
+            @media(min-width: 1200px){
+                padding-bottom:20px;
+            }
+        }
+        &.listing-amenities{
+            padding-bottom:5px;
+            @media(min-width: 1200px){
+                padding-bottom:10px;
+            }
+        }
+    }
+    // widget filters
+    .job_filters-sidebar{
+        padding:0 !important;
+    }
+    .search_jobs{
+        .content > div{
+            margin-bottom:20px;
+            clear: both;
+            &:last-child{
+                margin:0;
+            }
+        }
+    }
+    .job_filters .search_distance_wrapper .search-distance-label{
+        float: none;
+        label{
+            margin:0;
+        }
+    }
+    .job_filters .search_tag_wrapper{
+        padding:0;
+    }
+    
+    .job_filters .search_tag_wrapper .tags-wrap{
+        .job_tags{
+            -webkit-column-count:1; /* Chrome, Safari, Opera */
+            -moz-column-count: 1; /* Firefox */
+            column-count:1;
+        }
+    }
+    // blog
+    .widget {
+        &.widget_calendar{
+            #wp-calendar{
+                margin:0;
+            }
+        }
+    }
+}
+.listings-sidebar{
+    .job_filters{
+        .search_distance_wrapper {
+            padding-top:10px;
+        }
+    }
+}
+// top bar
+#apus-topbar{
+    .woocommerce-currency-switcher-form .dd-select{
+        background: transparent !important;
+        color: $topbar-color;
+    }
+    .woocommerce-currency-switcher-form a{
+        color: $topbar-color;
+        &:hover{
+            color: $link-color;
+        }
+    }
+    .widget-woocommerce-currency-switcher{ 
+        .dd-option{
+            border: none;
+        }
+    }
+    .woocommerce-currency-switcher-form .dd-selected{
+        padding: 0 10px !important;
+    }
+    // widget info
+    .info-topbar{
+        .textwidget{
+            > span{
+                @include rtl-padding-right(10px);
+                @include rtl-margin-right(10px);
+                @include rtl-float-left();
+                @include rtl-border-right(1px solid $border-color);
+                &:last-child{
+                    border: 0;
+                }
+            }
+        }
+        .fa{
+            @include rtl-margin-right(8px);
+        }
+    }
+}
+.apus-search-form{
+    .select-category{
+        display: inline-block;
+        @include rtl-float-left();
+        overflow:hidden;
+        position: relative;
+        min-width: 240px;
+        &:before{
+            content: "\f107";
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            position: absolute;
+            @include rtl-right(30px);
+            top:50%;
+            @include translateY(-50%);
+            font-size: 18px;
+        }
+        .dropdown_product_cat{
+            border: 1px solid $border-color;
+            width: 115%;
+            height: $input-height-base;
+            padding: 10px 20px;
+        }
+    }
+}
+
+// footer
+.apus-footer{
+    .wpb_heading,
+    .#{$block-heading-selector}{
+        color: $footer-heding-title-color;
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0 0 20px;
+        padding: 0;
+    }
+    //widget-infor
+    .widget-infor{
+        .heding{
+            color: #fff;
+        } 
+    }
+    // widget blog list
+    .posts-list{
+        .entry-title{
+            color: #fff;
+        }
+    }
+    // widget localtion
+    .widget-location{
+        .media-heading,
+        .fa{
+            color: #fff;
+        }
+    }
+    .posts-list{
+        li{
+            padding: 0;
+            border:none;
+        }
+    }
+    // contact
+    .widget-contact{
+        .item:hover{
+            .icon-box{
+                > *{
+                    color: $footer-link-hover-color;
+                    fill:$footer-link-hover-color;
+                }
+            }
+        }
+        .icon-box{
+            > *{
+                color: $footer-color;
+                fill:$footer-color;
+            }
+        }
+        .title{
+            color: $footer-color;
+        }
+    }
+}
+// copyright
+.apus-copyright{
+    .wpb_content_element,
+    .widget{
+        margin: 0 !important;
+    }
+    .social{
+        @include rtl-float-right();
+        a{
+            color: #999999;
+            &:hover,&:active{
+                color: #fff;
+            }
+        }
+    }
+}
